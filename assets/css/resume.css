@@ -152,6 +152,30 @@
         padding: 2rem 1.5rem;
     }
     
+    .download-section-top {
+        order: 2;
+        justify-content: center;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+    
+    .resume-header {
+        order: 1;
+    }
+    
+    .resume-section {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .resume-content {
+        order: 3;
+    }
+    
+    .about-text {
+        order: 4;
+    }
+    
     .resume-header {
         flex-direction: column;
         align-items: center;
