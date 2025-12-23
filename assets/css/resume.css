@@ -150,6 +150,8 @@
 @media (max-width: 768px) {
     .resume-section {
         padding: 2rem 1.5rem;
+        display: flex;
+        flex-direction: column;
     }
     
     .download-section-top {
@@ -161,36 +163,26 @@
     
     .resume-header {
         order: 1;
-    }
-    
-    .resume-section {
-        display: flex;
         flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+        margin-bottom: 0;
     }
     
     .resume-content {
         order: 3;
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
     }
     
     .about-text {
         order: 4;
     }
     
-    .resume-header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 2rem;
-    }
-    
     .profile-image {
         width: 180px;
         height: 180px;
-    }
-    
-    .resume-content {
-        grid-template-columns: 1fr;
-        gap: 2.5rem;
     }
     
     .resume-column:last-child {
